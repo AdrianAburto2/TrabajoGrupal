@@ -11,13 +11,12 @@ Scanner teclado = new Scanner(System.in);
 
 int n1,n2,n3;
 
-System.out.println("1ER CAMBIO DE PRUEBA ");
-System.out.println("Hola mundo");
+System.out.println("Bienvenido al programa de resolución de números.");
 System.out.println("Ingrese el primer número: ");
 n1=teclado.nextInt();
 
 System.out.println("Ingrese el segundo número: ");
-n2=teclado.nextInt();
+n2=teclado.nextInt();1
 while(n2==n1) {
 System.out.println("Error!! debe ingresar un número diferente");
 n2=teclado.nextInt();
